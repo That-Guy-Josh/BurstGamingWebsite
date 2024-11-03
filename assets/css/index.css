@@ -290,8 +290,8 @@ p {
 }
 
 .center-image {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: block;
   margin-right: auto;
   margin-top: 10px;
@@ -338,6 +338,14 @@ p {
   color: rgba(120, 6, 6, 0.9);
   transition: background-color 6s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275), transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
+}
+
+.tab-container {
+  margin-top: 275px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 
